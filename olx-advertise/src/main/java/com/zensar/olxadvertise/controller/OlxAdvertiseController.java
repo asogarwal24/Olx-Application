@@ -37,6 +37,12 @@ public class OlxAdvertiseController {
 
 	}
 
+	@GetMapping(value = "/advertise/{advertiseId}", produces = { MediaType.APPLICATION_JSON_VALUE,
+			MediaType.APPLICATION_XML_VALUE })
+	public Advertise getAdvertise(@PathVariable int advertiseId) {
+		return advertiseService.getAdvertise(advertiseId);
+	}
+
 	@PutMapping(value = "/advertise/{advertiseId}", produces = { MediaType.APPLICATION_JSON_VALUE,
 			MediaType.APPLICATION_XML_VALUE }, consumes = { MediaType.APPLICATION_JSON_VALUE,
 					MediaType.APPLICATION_XML_VALUE })

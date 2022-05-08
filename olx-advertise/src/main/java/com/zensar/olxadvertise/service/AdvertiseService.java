@@ -18,7 +18,7 @@ public interface AdvertiseService {
 
 	public boolean deleteSpecificAdvertise(int postId, String token);
 
-	public Advertise getAdvertise(long advertiseId);
+	public Advertise getAdvertise(int advertiseId);
 
 	public Advertise filterBasedSearchAdvertise();
 
