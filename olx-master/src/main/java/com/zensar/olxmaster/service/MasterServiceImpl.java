@@ -17,21 +17,7 @@ public class MasterServiceImpl implements MasterService {
 	private CategoryRepository categoryRepository;
 	private StatusRepository statusRepository;
 
-//	static List<Category> category = new ArrayList<>();
-//	static List<Status> status = new ArrayList<>();
-//	static {
-//		category.add(new Category(1, "Furniture"));
-//		category.add(new Category(2, "Cars"));
-//		category.add(new Category(3, "Mobile Phones"));
-//		category.add(new Category(4, "Real Estate"));
-//		category.add(new Category(5, "Sports"));
-//		status.add(new Status(201, "Open"));
-//		status.add(new Status(202, "Closed"));
-//		status.add(new Status(203, "Closed"));
-//		status.add(new Status(204, "Open"));
-//		status.add(new Status(205, "Open"));
-//	}
-	
+
 	
 	@Override
 	public List<Category> getAllCategories() {
