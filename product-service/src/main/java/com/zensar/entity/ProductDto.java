@@ -1,7 +1,5 @@
 package com.zensar.entity;
 
-import java.math.BigDecimal;
-
 import javax.persistence.Transient;
 
 import lombok.AllArgsConstructor;

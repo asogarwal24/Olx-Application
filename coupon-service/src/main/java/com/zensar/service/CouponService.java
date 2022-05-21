@@ -2,7 +2,6 @@ package com.zensar.service;
 
 import java.util.List;
 
-import com.zensar.entity.Coupon;
 import com.zensar.entity.CouponDto;
 
 public interface CouponService {
