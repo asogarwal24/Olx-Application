@@ -1,11 +1,5 @@
 package com.zensar.spring.service;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.zensar.spring.beans.Product;
 import com.zensar.spring.repository.ProductRepository;
 
